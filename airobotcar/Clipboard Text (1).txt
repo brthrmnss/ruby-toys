@@ -1,0 +1,24 @@
+#   1 = Occupied space
+ 
+grid = [[0, 0, 1, 0, 0, 0],
+        [0, 0, 1, 0, 0, 0],
+        [0, 0, 0, 0, 1, 0],
+        [0, 0, 1, 1, 1, 0],
+        [0, 0, 0, 0, 1, 0]] # this is the same as image grid
+     
+init = [0, 0] # starting position
+goal = [len(grid)-1, len(grid[0])-1] # goal position
+ 
+delta = [[-1, 0], # go up
+         [0, -1], # go left
+         [1, 0], # go down
+         [0, 1]] # do right
+ 
+delta_name = ['^', '<', 'v', '>'] # ignore for now
+ 
+cost = 1 # each move costs 1
+def search():
+    # ----------------------------------------
+    # insert code here and make sure it returns the appropriate result
+    # ----------------------------------------
+The code you write should output triplets, where the first value is the g-value and the next two 

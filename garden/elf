@@ -1,0 +1,130 @@
+=> [32m[1;32m#<[0m[32mSinatra::Application:0x2db80c8[0m
+ @app=nil,
+ @default_layout=:layout,
+ @env=
+  {"SERVER_SOFTWARE"=[1;32m>[0m[32m[0m[32m[1;32m"[0m[32mthin 1.3.1 codename Triple Espresso[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mSERVER_NAME[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m127.0.0.1[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mrack.input[1;32m"[0m[32m[0m=>[32m[1;32m#<[0m[32mStringIO:0x2e8bd90[1;32m>[0m[32m[0m,
+   [32m[1;32m"[0m[32mrack.version[1;32m"[0m[32m[0m=>[[1;34m1[0m, [1;34m0[0m],
+   [32m[1;32m"[0m[32mrack.errors[1;32m"[0m[32m[0m=>[32m[1;32m#<[0m[32mIO:<STDERR>[1;32m>[0m[32m[0m,
+   [32m[1;32m"[0m[32mrack.multithread[1;32m"[0m[32m[0m=>[1;36mtrue[0m,
+   [32m[1;32m"[0m[32mrack.multiprocess[1;32m"[0m[32m[0m=>[1;36mfalse[0m,
+   [32m[1;32m"[0m[32mrack.run_once[1;32m"[0m[32m[0m=>[1;36mfalse[0m,
+   [32m[1;32m"[0m[32mREQUEST_METHOD[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mGET[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mREQUEST_PATH[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m/hello[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mPATH_INFO[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m/hello[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mREQUEST_URI[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m/hello[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mHTTP_VERSION[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mHTTP/1.1[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mHTTP_HOST[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m127.0.0.1:9003[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mHTTP_USER_AGENT[1;32m"[0m[32m[0m=>
+    [32m[1;32m"[0m[32mMozilla/5.0 (Windows NT 6.1; WOW64; rv:13.0) Gecko/20100101 Firefox/13.0[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mHTTP_ACCEPT[1;32m"[0m[32m[0m=>
+    [32m[1;32m"[0m[32mtext/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mHTTP_ACCEPT_LANGUAGE[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32men-us,en;q=0.5[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mHTTP_ACCEPT_ENCODING[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mgzip, deflate[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mHTTP_CONNECTION[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mkeep-alive[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mGATEWAY_INTERFACE[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mCGI/1.2[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mSERVER_PORT[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m9003[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mQUERY_STRING[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mSERVER_PROTOCOL[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mHTTP/1.1[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mrack.url_scheme[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mhttp[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mSCRIPT_NAME[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mREMOTE_ADDR[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m127.0.0.1[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32masync.callback[1;32m"[0m[32m[0m=>[32m[1;32m#<[0m[32mMethod: Thin::Connection#post_process[1;32m>[0m[32m[0m,
+   [32m[1;32m"[0m[32masync.close[1;32m"[0m[32m[0m=>
+    [32m[1;32m#<[0m[32mEventMachine::DefaultDeferrable:0x2ea5db8
+     @callbacks=nil,
+     @deferred_args=[],
+     @deferred_status=:succeeded,
+     @deferred_timeout=nil,
+     @errbacks=nil[1;32m>[0m[32m[0m,
+   [32m[1;32m"[0m[32mrack.logger[1;32m"[0m[32m[0m=>
+    [32m[1;32m#<[0m[32mLogger:0x2db8950
+     @default_formatter=#<Logger::Formatter:0x2db8920 @datetime_format=nil>,
+     @formatter=nil,
+     @level=1,
+     @logdev=
+      #<Logger::LogDevice:0x2db88a8
+       @dev=#<IO:<STDERR>>,
+       @filename=nil,
+       @mutex=
+        #<Logger::LogDevice::LogDeviceMutex:0x2db8878
+         @mon_count=0,
+         @mon_mutex=#<Mutex:0x2db8830>,
+         @mon_owner=nil>,
+       @shift_age=nil,
+       @shift_size=nil>,
+     @progname=nil[1;32m>[0m[32m[0m,
+   [32m[1;32m"[0m[32mrack.request.query_string[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m[1;32m"[0m[32m[0m,
+   [32m[1;32m"[0m[32mrack.request.query_hash[1;32m"[0m[32m[0m=>{}},
+ @params={},
+ @request=
+  [32m[1;32m#<[0m[32mSinatra::Request:0x2db8038
+   @env=
+    {"SERVER_SOFTWARE"=[1;32m>[0m[32m[0m[32m[1;32m"[0m[32mthin 1.3.1 codename Triple Espresso[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mSERVER_NAME[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m127.0.0.1[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mrack.input[1;32m"[0m[32m[0m=>[32m[1;32m#<[0m[32mStringIO:0x2e8bd90[1;32m>[0m[32m[0m,
+     [32m[1;32m"[0m[32mrack.version[1;32m"[0m[32m[0m=>[[1;34m1[0m, [1;34m0[0m],
+     [32m[1;32m"[0m[32mrack.errors[1;32m"[0m[32m[0m=>[32m[1;32m#<[0m[32mIO:<STDERR>[1;32m>[0m[32m[0m,
+     [32m[1;32m"[0m[32mrack.multithread[1;32m"[0m[32m[0m=>[1;36mtrue[0m,
+     [32m[1;32m"[0m[32mrack.multiprocess[1;32m"[0m[32m[0m=>[1;36mfalse[0m,
+     [32m[1;32m"[0m[32mrack.run_once[1;32m"[0m[32m[0m=>[1;36mfalse[0m,
+     [32m[1;32m"[0m[32mREQUEST_METHOD[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mGET[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mREQUEST_PATH[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m/hello[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mPATH_INFO[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m/hello[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mREQUEST_URI[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m/hello[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mHTTP_VERSION[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mHTTP/1.1[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mHTTP_HOST[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m127.0.0.1:9003[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mHTTP_USER_AGENT[1;32m"[0m[32m[0m=>
+      [32m[1;32m"[0m[32mMozilla/5.0 (Windows NT 6.1; WOW64; rv:13.0) Gecko/20100101 Firefox/13.0[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mHTTP_ACCEPT[1;32m"[0m[32m[0m=>
+      [32m[1;32m"[0m[32mtext/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mHTTP_ACCEPT_LANGUAGE[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32men-us,en;q=0.5[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mHTTP_ACCEPT_ENCODING[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mgzip, deflate[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mHTTP_CONNECTION[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mkeep-alive[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mGATEWAY_INTERFACE[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mCGI/1.2[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mSERVER_PORT[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m9003[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mQUERY_STRING[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mSERVER_PROTOCOL[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mHTTP/1.1[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mrack.url_scheme[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32mhttp[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mSCRIPT_NAME[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mREMOTE_ADDR[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m127.0.0.1[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32masync.callback[1;32m"[0m[32m[0m=>[32m[1;32m#<[0m[32mMethod: Thin::Connection#post_process[1;32m>[0m[32m[0m,
+     [32m[1;32m"[0m[32masync.close[1;32m"[0m[32m[0m=>
+      [32m[1;32m#<[0m[32mEventMachine::DefaultDeferrable:0x2ea5db8
+       @callbacks=nil,
+       @deferred_args=[],
+       @deferred_status=:succeeded,
+       @deferred_timeout=nil,
+       @errbacks=nil[1;32m>[0m[32m[0m,
+     [32m[1;32m"[0m[32mrack.logger[1;32m"[0m[32m[0m=>
+      [32m[1;32m#<[0m[32mLogger:0x2db8950
+       @default_formatter=#<Logger::Formatter:0x2db8920 @datetime_format=nil>,
+       @formatter=nil,
+       @level=1,
+       @logdev=
+        #<Logger::LogDevice:0x2db88a8
+         @dev=#<IO:<STDERR>>,
+         @filename=nil,
+         @mutex=
+          #<Logger::LogDevice::LogDeviceMutex:0x2db8878
+           @mon_count=0,
+           @mon_mutex=#<Mutex:0x2db8830>,
+           @mon_owner=nil>,
+         @shift_age=nil,
+         @shift_size=nil>,
+       @progname=nil[1;32m>[0m[32m[0m,
+     [32m[1;32m"[0m[32mrack.request.query_string[1;32m"[0m[32m[0m=>[32m[1;32m"[0m[32m[1;32m"[0m[32m[0m,
+     [32m[1;32m"[0m[32mrack.request.query_hash[1;32m"[0m[32m[0m=>{}},
+   @params={}>,
+ @response=
+  [32m[1;32m#<[0m[32mSinatra::Response:0x2db7ff0
+   @block=nil,
+   @body=[],
+   @chunked=false,
+   @header={"Content-Type"=[1;32m>[0m[32m[0m[1;36mnil[0m},
+   @length=[1;34m0[0m,
+   @status=[1;34m200[0m,
+   @writer=
+    [32m[1;32m#<[0m[32mProc:0x2db7ba0@c:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/response.rb:28 (lambda)[1;32m>[0m[32m[0m>,
+ @template_cache=[32m[1;32m#<[0m[32mTilt::Cache:0x2c8cd28 @cache={}[1;32m>[0m[32m[0m>

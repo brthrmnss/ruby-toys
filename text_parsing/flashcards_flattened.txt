@@ -1,0 +1,32 @@
+
+What classes are added by NavigableSet? pollLast, pollFirst 
+Do case statements have to be in order? with default last? No. default ctaches a no match 
+What are teh DateFormat constants? 
+What does the DateFormat.Long look like? date full time and timezone
+Waht does DateFormat.dfeault look like? feb date, time with econds 
+Waht does DateFormat.full look like? DOW + Long
+What does Df.Medium look like? short month, time AM
+Waht does Df.short look like? 02/02/02 time no seconds, am/pm
+Short Circuit Operators Do what? how could you...
+When enabling / dis asseritons, does it cascade down the paths? yes
+Is the try block used to handle exceptions? No the catch block is used to hadnle them
+Can a linkedlist be assigned to a queue? yes it implenets Queeue, DeQeue
+
+Whem you define a custom enum method, how do you demarcate options from methods? semicolon
+What can a jar do? possible to digital sign them , seal packages force all packages to be at same version. jars can be versioned, holds data about ifnromation ti contains
+How do native methods work, how are they written? The ar edefined outside of jvm. they do not get bodies
+What is the first keyword to define a native method, what goes first? navtive
+Can enums be used as a generic? No
+What does the interfaces LinkedLIst, Queue, and PriorityQueue extend? asdf
+A file objetct cn access a fiel in the local directory? yes, what  a question
+question 10052
+How is asList used? Arrays.asList, static method, send in items, get a list. Creates fixed length list 
+What is teh hashcode For a String? the length 
+How are 'overrided' static methods determinign who gets called? by the reference
+
+What are the methods associated with queue? add, remove, element, offer, poll, peek 
+What is unique about the functions of queue? add, remove, element, throw exceptions, offer,  peek,pool, return null or false
+What are teh collection oriented methods? addAll, clea,r contains, equals, hashCode, isEmpty, iterator, remove, removeAll, toArray
+What methods are associated with NavigableSet? subSet, tailSet, headSet, descendingIterator, floor, cieling, higher, pollFirst, pollLast() 
+Arrays asList method is ? STatic, like almost all ARrays methods
+
